@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
-};
+  output: 'export',
+  distDir: 'dist', // or whatever your output folder is
+}
 
-export default nextConfig;
+module.exports = nextConfig

@@ -22,35 +22,35 @@ const T = {
     location: "Bocas del Toro · Panama",
     title1:   "The Jungle is",
     titleEm:  "Alive.",
-    title2:   "Come Find It.",
-    sub:      "Guided rainforest & beach nature tours with Luis — a native of Bluff Island and lifelong steward of its wild coast.",
-    cta1:     "See the Tours",
+    title2:   "Come Discover It.",
+    sub:      "Guided nature tours through jungle and beach with Luis — a Bluff Beach native and lifelong guardian of his wild coastline.",
+    cta1:     "View Tours",
     cta2:     "Meet Luis",
     scroll:   "Scroll",
   },
 
   ticker: [
-    "🌿 Primary Rainforest",
-    "🦜 Exotic Birdlife",
-    "🥥 Ngobe Culture",
+    "🌿 Jungle",
+    "🦜 Exotic Birds",
+    "🥥 Ngöbe Culture",
     "🌊 Bluff Beach",
     "🦥 Wild Sloths",
     "🐒 Howler Monkeys",
     "🌺 Tropical Flora",
-    "🐸 Dart Frogs",
+    "🐸 Poison Frogs",
   ],
 
   about: {
     eyebrow:  "Meet your guide",
-    title1:   "A lifetime in the",
+    title1:   "A life in the",
     titleEm:  "jungle",
-    title2:   "is your best teacher.",
-    p1: "Luis was born and raised on Bluff Island, surrounded by the same rainforest, beaches, and wildlife he now shares with visitors. He is Ngobe — part of the indigenous community that has lived with and from this land for centuries.",
-    p2: "His knowledge goes far beyond any guidebook. He knows which leaf cures a sting, where the sloths sleep, how the manakin bird dances to attract a mate, and the stories his culture has woven around every plant and animal on this coast. Walking with Luis is walking with the forest itself.",
-    quote:    "\"I don't just show you the jungle — I show you how to see it.\"",
+    title2:   "is your greatest teacher.",
+    p1: "Luis was born and raised on Bluff Island, surrounded by the same jungle, beaches, and wildlife he now shares with visitors. He is Ngöbe — part of the indigenous community that has lived with and from this land for centuries.",
+    p2: "His knowledge goes far beyond any guidebook. He knows which leaf heals a sting, where sloths sleep, how the manakin bird dances to attract a mate, and the stories his culture has woven around every plant and animal along this coast. Walking with Luis is walking with the forest itself.",
+    quote:    "\"I don’t just show you the jungle — I teach you how to see it.\"",
     quoteBy:  "— Luis",
-    badge:    { label: "Your Guide", name: "Luis", sub: "Native of Isla Bluff" },
-    tags:     ["Native Ngobe Guide", "Wildlife Expert", "Born on Bluff Island", "Spanish & English", "Small Groups Only"],
+    badge:    { label: "Your Guide", name: "Luis", sub: "Bluff Island Native" },
+    tags:     ["Native Ngöbe Guide", "Wildlife Expert", "Born in Bluff", "Spanish & English", "Small Groups Only"],
   },
 
   tours: {
@@ -58,92 +58,93 @@ const T = {
     title1:  "Two trails.",
     titleEm: "Endless",
     title2:  "discoveries.",
-    cta:     "Book on WhatsApp →",
+    cta:     "Book via WhatsApp →",
   },
 
   tour1: {
-    tag:   "🌿 Rainforest Trail",
+    tag:   "🌿 Jungle Trail",
     num:   "Trail 01",
     title: "Manakin Trail",
-    desc:  "Starting at the sparkling edge of Bluff Beach, this trail leads you deep into primary rainforest where towering ceibas, howler monkeys, jewel-bright manakin birds, and hundreds of plant species share the same cathedral of green. Luis shares how the Ngobe people have lived alongside these plants and animals for generations.",
+    desc:  "Starting at the bright edge of Bluff Beach, this trail takes you deep into the jungle where towering ceiba trees, howler monkeys, jewel-like manakin birds, and hundreds of plant species share the same green cathedral. Luis shares how the Ngöbe people have lived alongside these plants and animals for generations.",
     details: [
       ["⏱", "2–3 hours"],
       ["📍", "Starts at Bluff Beach"],
-      ["👟", "Easy to moderate — all fitness levels"],
+      ["👟", "Easy to moderate — all levels"],
       ["🌅", "Morning departure recommended"],
-      ["👥", "Max 8 people per group"],
+      ["👥", "Max. 8 people per group"],
     ],
   },
 
   tour2: {
     tag:   "🌊 Beach Trail",
     num:   "Trail 02",
-    title: "El Perezoso Trail",
-    desc:  "Named after the sloths that drape lazily from coastal palms, this gentle beach walk follows the wild edge of Bluff's shoreline. Luis shares the deep knowledge of his Ngobe people — the stories behind the coastal plants, the wildlife that depends on this stretch of Caribbean coast, and what it means to grow up in one of the most biodiverse places on Earth.",
+    title: "Sloth Trail",
+    desc:  "Named after the sloths that lazily hang from coastal palm trees, this gentle beach walk follows the wild edge of Bluff’s coastline. Luis shares deep Ngöbe knowledge — the stories behind coastal plants, the wildlife that depends on this Caribbean shore, and what it means to grow up in one of the most biodiverse places on Earth.",
     details: [
       ["⏱", "1.5–2 hours"],
-      ["📍", "Along Bluff Beach shoreline"],
-      ["👟", "Easy — barefoot-friendly"],
-      ["🌴", "Ngobe culture & coastal plants"],
+      ["📍", "Along Bluff Beach coastline"],
+      ["👟", "Easy — barefoot friendly"],
+      ["🌴", "Ngöbe culture & coastal plants"],
       ["👨‍👩‍👧", "Perfect for families & kids"],
     ],
   },
 
   wildlife: {
     eyebrow: "What you might encounter",
-    title1:  "The wildlife of",
+    title1:  "Wildlife of",
     titleEm: "Bluff",
-    sub:     "Bocas del Toro is one of Central America's most biodiverse corners. Every walk with Luis is a new chapter of the same extraordinary story.",
+    sub:     "Bocas del Toro is one of the most biodiverse corners of Central America. Every walk with Luis is a new chapter of the same extraordinary story.",
     items: [
-      { emoji: "🦜", label: "Scarlet Macaws"        },
-      { emoji: "🐒", label: "Howler Monkeys"         },
-      { emoji: "🦎", label: "Green Iguanas"          },
-      { emoji: "🐦", label: "Manakin Birds"          },
-      { emoji: "🦋", label: "Morpho Butterflies"     },
-      { emoji: "🐸", label: "Poison Dart Frogs"      },
-      { emoji: "🦥", label: "Three-Toed Sloths"      },
-      { emoji: "🌺", label: "Tropical Orchids"       },
-      { emoji: "🦀", label: "Land Crabs"             },
-      { emoji: "🌿", label: "Medicinal Plants"       },
-      { emoji: "🐊", label: "Caimans"                },
-      { emoji: "🥥", label: "Wild Coconut Palms"     },
+      { emoji: "🦜", label: "Oropendola"        },
+      { emoji: "🐒", label: "Howler Monkeys"    },
+      { emoji: "🦎", label: "Green Iguanas"     },
+      { emoji: "🐦", label: "Manakin Birds"     },
+      { emoji: "🦋", label: "Morpho Butterflies"},
+      { emoji: "🐸", label: "Poison Dart Frogs" },
+      { emoji: "🦥", label: "Three-Toed Sloths" },
+      { emoji: "🌺", label: "Tropical Orchids"  },
+      { emoji: "🦀", label: "Land Crabs"        },
+      { emoji: "🌿", label: "Medicinal Plants"  },
+      { emoji: "🐊", label: "Caimans"           },
+      { emoji: "🥥", label: "Wild Coconut Palms"},
     ],
   },
 
   why: {
     eyebrow: "Why choose Luis",
     title1:  "Not just a guide.",
-    titleEm: "A keeper of the forest.",
+    titleEm: "A guardian of the forest.",
     cards: [
-      { icon: "🌱", title: "Born on the Island",          body: "Luis grew up in the rainforest of Bluff, Bocas del Toro. Every trail, plant, and animal is part of his lived experience — not a textbook." },
-      { icon: "🏡", title: "Ngobe Indigenous Knowledge",  body: "He carries generations of Ngobe wisdom — the stories, the plant names, the cultural meaning behind everything this land provides." },
-      { icon: "🔭", title: "Wildlife Spotter",            body: "His trained eye catches what visitors miss: a sloth blending into bark, a dart frog on moss, a manakin dancing mid-air." },
-      { icon: "💬", title: "Warm & Passionate",           body: "More than a guide, Luis is a storyteller. Every stop on the trail comes with a story, a laugh, and a genuine human connection." },
-      { icon: "🌊", title: "Sea & Jungle Expert",         body: "From Bluff's powerful surf to the cathedral-quiet interior rainforest, Luis knows this entire extraordinary ecosystem intimately." },
-      { icon: "♻️", title: "Low-Impact & Responsible",    body: "Small groups, no motors, no extraction. Luis treads lightly and teaches you to do the same — leaving the jungle exactly as you found it." },
+      { icon: "🌱", title: "Born on the Island",          body: "Luis grew up in the jungle of Bluff, Bocas del Toro. Every trail, plant, and animal is part of his lived experience — not from a textbook." },
+      { icon: "🏡", title: "Ngöbe Indigenous Knowledge",  body: "He carries generations of Ngöbe wisdom — the stories, plant knowledge, and cultural meaning behind everything this land provides." },
+      { icon: "🔭", title: "Wildlife Tracker",            body: "His trained eye catches what visitors miss: a sloth hidden in the bark, a dart frog on moss, a manakin dancing mid-air." },
+      { icon: "💬", title: "Warm & Passionate",           body: "More than a guide, Luis is a storyteller. Every stop along the trail comes with a story, a laugh, and a genuine human connection." },
+      { icon: "🌊", title: "Ocean & Jungle Expert",       body: "From the powerful waves of Bluff to the silent cathedral of the jungle, Luis knows this entire ecosystem intimately." },
+      { icon: "♻️", title: "Low Impact & Responsible",    body: "Small groups, no engines, no extraction. Luis walks lightly and teaches you to do the same — leaving the jungle exactly as you found it." },
     ],
   },
 
   banner: {
     location: "Bluff Beach · Bocas del Toro",
-    title1:   "One of Panama's last",
-    titleEm:  "wild coasts.",
-    sub:      "Bluff Beach stretches for miles with almost no development — backed by primary rainforest and fronted by the powerful Caribbean. A rare world, and Luis will help you understand every inch of it.",
+    title1:   "Panama",
+    titleEm:  "unfiltered.",
+    title2:   "",
+    sub:      "Jungle, ocean, and pure wild life. Bocas del Toro as few ever experience it.",
   },
 
   contact: {
     eyebrow: "Ready to explore?",
     title:   "Book your tour with Luis",
-    sub:     "Tours run every day, weather permitting. Small groups only. Message Luis on WhatsApp to check availability and reserve your spot.",
+    sub:     "Tours run daily, weather permitting. Small groups only. Send Luis a message on WhatsApp to check availability and reserve your spot.",
     cta:     "Message Luis on WhatsApp",
     note:    "Replies within a few hours · Bocas del Toro, Panama",
   },
 
-  wa:     { tooltip: "Chat with Luis" },
+  wa: { tooltip: "Chat with Luis" },
 
   footer: {
     tagline: "Nature Tours · Bluff Beach · Bocas del Toro, Panama",
-    credit:  "Guided by Luis, native of the island.",
+    credit:  "Guided by Luis, island native.",
   },
 };
 
@@ -315,7 +316,14 @@ export default function Page() {
       {/* ── HERO ────────────────────────────────────────────────────────── */}
       <section ref={heroRef} className="relative h-screen min-h-[640px] flex items-center justify-center overflow-hidden">
         <motion.div className="absolute inset-0" style={{ y: heroY }}>
-          <Image src="/photo5.png" alt="Bluff Beach Bocas del Toro" fill priority className="object-cover object-center" />
+          <Image 
+            src="/photo5.png" 
+            alt="Bluff Beach Bocas del Toro" 
+            fill 
+            priority 
+            sizes="100vw"
+            className="object-cover object-center" 
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-[#152b1d]/60 via-[#152b1d]/30 to-[#152b1d]/80" />
         </motion.div>
 
@@ -393,7 +401,13 @@ export default function Page() {
           <Reveal>
             <div className="relative">
               <div className="relative h-[560px] rounded overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
-                <Image src="/photo1.png" alt="Luis your guide" fill className="object-cover" />
+                <Image 
+                  src="/photo1.png" 
+                  alt="Luis your guide" 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover" 
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#152b1d]/40 to-transparent" />
               </div>
               <div className="absolute -bottom-5 -right-5 w-40 h-40 bg-[#c8882a] rounded -z-10" />
@@ -444,7 +458,13 @@ export default function Page() {
           <Reveal delay={0.1} className="mb-14">
             <div className="grid md:grid-cols-2 rounded-lg overflow-hidden border border-white/8 shadow-[0_24px_80px_rgba(0,0,0,0.4)]">
               <div className="relative min-h-[480px]">
-                <Image src="/photo2.png" alt={T.tour1.title} fill className="object-cover" />
+                <Image 
+                  src="/photo3.png" 
+                  alt={T.tour1.title} 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover" 
+                />
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#1a3326]/60" />
                 <span className="absolute top-6 left-6 bg-[#c8882a]/90 backdrop-blur-sm text-white text-xs uppercase tracking-widest px-4 py-1.5 rounded-sm font-medium">
                   {T.tour1.tag}
@@ -493,7 +513,13 @@ export default function Page() {
                 </motion.a>
               </div>
               <div className="relative min-h-[480px] order-1 md:order-2">
-                <Image src="/photo3.png" alt={T.tour2.title} fill className="object-cover" />
+                <Image 
+                  src="/photo2.png" 
+                  alt={T.tour2.title} 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover" 
+                />
                 <div className="absolute inset-0 bg-gradient-to-l from-transparent to-[#1a3326]/60" />
                 <span className="absolute top-6 right-6 bg-[#2a5038]/90 backdrop-blur-sm text-[#cdddc5] text-xs uppercase tracking-widest px-4 py-1.5 rounded-sm font-medium">
                   {T.tour2.tag}
@@ -506,9 +532,18 @@ export default function Page() {
 
       {/* ── PHOTO STRIP ─────────────────────────────────────────────────── */}
       <div className="grid grid-cols-2 md:grid-cols-4 h-64 md:h-80">
-        {["/photo4.png", "/photo6.png", "/photo7.png", "/photo8.png"].map((src, i) => (
+        {[
+          { src: "/photo4.png", sizes: "(max-width: 768px) 50vw, 25vw" },
+          { src: "/photo6.png", sizes: "(max-width: 768px) 50vw, 25vw" },
+          { src: "/photo7.png", sizes: "(max-width: 768px) 50vw, 25vw" },
+          { src: "/photo9.png", sizes: "(max-width: 768px) 50vw, 25vw" }
+        ].map(({ src, sizes }, i) => (
           <FadeIn key={src} delay={i * 0.1} className="relative overflow-hidden group">
-            <Image src={src} alt="Wildlife Bocas del Toro" fill
+            <Image 
+              src={src} 
+              alt="Wildlife Bocas del Toro" 
+              fill
+              sizes={sizes}
               className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-[#152b1d]/25 group-hover:bg-[#152b1d]/0 transition-colors duration-500" />
@@ -575,7 +610,13 @@ export default function Page() {
       {/* ── BANNER ──────────────────────────────────────────────────────── */}
       <section className="relative py-36 px-6 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/photo6.png" alt="Bocas del Toro nature" fill className="object-cover" />
+          <Image 
+            src="/photo6.png" 
+            alt="Bocas del Toro nature" 
+            fill 
+            sizes="100vw"
+            className="object-cover" 
+          />
           <div className="absolute inset-0 bg-[#152b1d]/80" />
         </div>
         <div className="relative z-10 max-w-3xl mx-auto text-center">

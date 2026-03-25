@@ -315,7 +315,14 @@ export default function Page() {
       {/* ── HERO ────────────────────────────────────────────────────────── */}
       <section ref={heroRef} className="relative h-screen min-h-[640px] flex items-center justify-center overflow-hidden">
         <motion.div className="absolute inset-0" style={{ y: heroY }}>
-          <Image src="/photo5.png" alt="Bluff Beach Bocas del Toro" fill priority className="object-cover object-center" />
+          <Image 
+            src="/photo5.png" 
+            alt="Bluff Beach Bocas del Toro" 
+            fill 
+            priority 
+            sizes="100vw"
+            className="object-cover object-center" 
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-[#152b1d]/60 via-[#152b1d]/30 to-[#152b1d]/80" />
         </motion.div>
 
@@ -393,7 +400,13 @@ export default function Page() {
           <Reveal>
             <div className="relative">
               <div className="relative h-[560px] rounded overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
-                <Image src="/photo1.png" alt="Luis your guide" fill className="object-cover" />
+                <Image 
+                  src="/photo1.png" 
+                  alt="Luis your guide" 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover" 
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#152b1d]/40 to-transparent" />
               </div>
               <div className="absolute -bottom-5 -right-5 w-40 h-40 bg-[#c8882a] rounded -z-10" />
@@ -444,7 +457,13 @@ export default function Page() {
           <Reveal delay={0.1} className="mb-14">
             <div className="grid md:grid-cols-2 rounded-lg overflow-hidden border border-white/8 shadow-[0_24px_80px_rgba(0,0,0,0.4)]">
               <div className="relative min-h-[480px]">
-                <Image src="/photo3.png" alt={T.tour1.title} fill className="object-cover" />
+                <Image 
+                  src="/photo3.png" 
+                  alt={T.tour1.title} 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover" 
+                />
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#1a3326]/60" />
                 <span className="absolute top-6 left-6 bg-[#c8882a]/90 backdrop-blur-sm text-white text-xs uppercase tracking-widest px-4 py-1.5 rounded-sm font-medium">
                   {T.tour1.tag}
@@ -493,7 +512,13 @@ export default function Page() {
                 </motion.a>
               </div>
               <div className="relative min-h-[480px] order-1 md:order-2">
-                <Image src="/photo2.png" alt={T.tour2.title} fill className="object-cover" />
+                <Image 
+                  src="/photo2.png" 
+                  alt={T.tour2.title} 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover" 
+                />
                 <div className="absolute inset-0 bg-gradient-to-l from-transparent to-[#1a3326]/60" />
                 <span className="absolute top-6 right-6 bg-[#2a5038]/90 backdrop-blur-sm text-[#cdddc5] text-xs uppercase tracking-widest px-4 py-1.5 rounded-sm font-medium">
                   {T.tour2.tag}
@@ -506,9 +531,18 @@ export default function Page() {
 
       {/* ── PHOTO STRIP ─────────────────────────────────────────────────── */}
       <div className="grid grid-cols-2 md:grid-cols-4 h-64 md:h-80">
-        {["/photo4.png", "/photo6.png", "/photo7.png", "/photo9.png"].map((src, i) => (
+        {[
+          { src: "/photo4.png", sizes: "(max-width: 768px) 50vw, 25vw" },
+          { src: "/photo6.png", sizes: "(max-width: 768px) 50vw, 25vw" },
+          { src: "/photo7.png", sizes: "(max-width: 768px) 50vw, 25vw" },
+          { src: "/photo9.png", sizes: "(max-width: 768px) 50vw, 25vw" }
+        ].map(({ src, sizes }, i) => (
           <FadeIn key={src} delay={i * 0.1} className="relative overflow-hidden group">
-            <Image src={src} alt="Wildlife Bocas del Toro" fill
+            <Image 
+              src={src} 
+              alt="Wildlife Bocas del Toro" 
+              fill
+              sizes={sizes}
               className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-[#152b1d]/25 group-hover:bg-[#152b1d]/0 transition-colors duration-500" />
@@ -575,7 +609,13 @@ export default function Page() {
       {/* ── BANNER ──────────────────────────────────────────────────────── */}
       <section className="relative py-36 px-6 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/photo6.png" alt="Bocas del Toro nature" fill className="object-cover" />
+          <Image 
+            src="/photo6.png" 
+            alt="Bocas del Toro nature" 
+            fill 
+            sizes="100vw"
+            className="object-cover" 
+          />
           <div className="absolute inset-0 bg-[#152b1d]/80" />
         </div>
         <div className="relative z-10 max-w-3xl mx-auto text-center">
